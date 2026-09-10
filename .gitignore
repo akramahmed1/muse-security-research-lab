@@ -1,0 +1,20 @@
+# Local Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local runtime data
+backend/muse_lab.db
+backend/evidence/
+
+# Local configuration and editor files
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
